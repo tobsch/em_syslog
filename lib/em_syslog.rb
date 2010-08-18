@@ -22,7 +22,7 @@ module EventMachine
       # this is called after connection initialization
       #
       def post_init
-        puts 'Syslogger initialized'
+        # puts 'Syslogger initialized'
       end
       
       # Log a message with the given severity, tag and time
