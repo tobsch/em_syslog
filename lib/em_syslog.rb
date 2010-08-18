@@ -23,7 +23,6 @@ module EventMachine
       #
       def post_init
         puts 'Syslogger initialized'
-        self.comm_inactivity_timeout = 2
       end
       
       # Log a message with the given severity, tag and time
